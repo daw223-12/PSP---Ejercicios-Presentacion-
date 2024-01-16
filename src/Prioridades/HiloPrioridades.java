@@ -1,9 +1,9 @@
 package Prioridades;
 
-class MiHilo extends Thread {
+class HiloPrioridades extends Thread {
 
 	private String id;
-	public MiHilo (String id)
+	public HiloPrioridades (String id)
 	{
 		this.id = id;
 	}

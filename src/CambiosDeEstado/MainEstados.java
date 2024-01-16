@@ -1,6 +1,6 @@
 package CambiosDeEstado;
 
-public class Main {
+public class MainEstados {
 	 public static void main(String args[]) {
 	        MiHilo hilo1 = new MiHilo("Hilo 1 :");
 	        MiHilo hilo2 = new MiHilo("Hilo 2 :");

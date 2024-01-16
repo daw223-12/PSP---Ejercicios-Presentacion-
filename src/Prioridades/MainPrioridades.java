@@ -1,10 +1,10 @@
 package Prioridades;
 
-public class Main {
+public class MainPrioridades {
     public static void main(String[] args) {
         // Crear instancias de hilos
-        MiHilo hilo1 = new MiHilo("hilo1");
-        MiHilo hilo2 = new MiHilo("hilo2");
+        HiloPrioridades hilo1 = new HiloPrioridades("hilo1");
+        HiloPrioridades hilo2 = new HiloPrioridades("hilo2");
 
         // Establecer la prioridad de los hilos
         hilo1.setPriority(Thread.MIN_PRIORITY);

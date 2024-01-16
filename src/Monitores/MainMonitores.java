@@ -1,6 +1,6 @@
 package Monitores;
 
-public class Main {
+public class MainMonitores {
     public static void main(String[] args) {
         // Crear una instancia del contador compartido
         Contador contadorCompartido = new Contador();

@@ -2,7 +2,7 @@ package Semaforo;
 
 import java.util.concurrent.Semaphore;
 
-public class Main {
+public class MainSemaforo {
 	public static void main(String[] args) {
         Semaphore semaforo = new Semaphore(1); // Semáforo binario //con valor inicial 1
         RecursoCompartido recurso = new RecursoCompartido();
