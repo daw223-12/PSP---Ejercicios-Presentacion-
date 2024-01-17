@@ -1,5 +1,6 @@
 package Completo;
 
+// Hilo que retirará productos de forma urgente
 public class RetirarUrgente extends Thread {
 	private Almacen almacen;
     private int cantidadVaciar;
@@ -11,7 +12,6 @@ public class RetirarUrgente extends Thread {
 
     public void run() {
         for (int i = 1; i <= cantidadVaciar; i++) {
-            
                 try {
 					almacen.quitarElemento();
 				} catch (InterruptedException e) {

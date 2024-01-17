@@ -1,5 +1,6 @@
 package Completo;
 
+// Hilo que retira productos
 class RetirarProducto extends Thread {
     private Almacen almacen;
     private int cantidadVaciar;

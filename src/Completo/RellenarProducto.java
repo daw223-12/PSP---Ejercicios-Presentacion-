@@ -1,6 +1,6 @@
 package Completo;
 
-// Hilo que rellena el producto con 15 unidades
+// Hilo que rellena el producto
 class RellenarProducto extends Thread {
     private Almacen almacen;
     private int cantidadRellenar;
@@ -16,7 +16,6 @@ class RellenarProducto extends Thread {
             	Thread.sleep(800);//Simula la rellenación
                 almacen.añadirElemento("Elm" + i);
                 System.out.println("Añadido; El stock es de: " + almacen.numeroElementosEnStock());
-                System.out.println("Mi prioridad es "+ Thread.currentThread().getPriority());
             } catch (InterruptedException e) {
                 e.printStackTrace();
             }

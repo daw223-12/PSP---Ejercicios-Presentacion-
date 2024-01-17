@@ -15,7 +15,7 @@ class HiloPrioridades extends Thread {
         {
         	try {
         		Thread.sleep(1000);
-        		Thread.yield();
+        		Thread.yield(); // Digo al SO si quiere entrar otro hilo
         	} catch (InterruptedException e) {
                 e.printStackTrace();
             }

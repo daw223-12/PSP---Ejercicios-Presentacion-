@@ -11,16 +11,18 @@ class MiHilo extends Thread {
 	}
 	
 	
-
+	
     public void suspender() {
         suspendido = true;
     }
-
+    
+    //Notifica y pone el suspendido en false
     public synchronized void reanudar() {
         suspendido = false;
         notify();
     }
 
+    
     public void run() {
         for (int i = 1; i <= 5; i++) {
             System.out.println(id + " Valor: " + i);

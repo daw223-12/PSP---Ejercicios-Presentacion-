@@ -2,6 +2,7 @@ package CambiosDeEstado;
 
 public class MainEstados {
 	 public static void main(String args[]) {
+		 // Instancio los hilos
 	        MiHilo hilo1 = new MiHilo("Hilo 1 :");
 	        MiHilo hilo2 = new MiHilo("Hilo 2 :");
 	        
